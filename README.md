@@ -1,10 +1,11 @@
 Makine Öğrenme Aşamaları
 1-Veri setini yükle
-2-Veriyi "öğrenme" ve "test" olmak üzere 2'ye böl
-3-Uygun modeli belirle
-4-Seçilen modele göre öğrenmeye başla
-5-Tahmin yap
-6-Doğruluğunu kontrol et
+2-Kayıp değerleri doldurmak
+3-Veriyi "öğrenme" ve "test" olmak üzere 2'ye böl
+4-Uygun modeli belirle
+5-Seçilen modele göre öğrenmeye başla
+6-Tahmin yap
+7-Doğruluğunu kontrol et
 
 
 Veri Önişleme Nedir?
