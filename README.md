@@ -7,6 +7,16 @@ Makine Öğrenme Aşamaları
 6-Doğruluğunu kontrol et
 
 
+Veri Önişleme Nedir?
+Veri setini, model belirlemek için hazır hale getirmektir.
+1-Veri setindeki eksik değerleri tamamlamak
+2-Kategorileri numaralandırmak
+3-Özellikleri ölçeklendirme
+4-Veri setini öğrenme ve test şeklinde ikiye bölme
+5-Veriyi görselleştirme
+
+
+
 # ai_sklearn_load_iris
 
 # -*- coding: utf-8 -*-
