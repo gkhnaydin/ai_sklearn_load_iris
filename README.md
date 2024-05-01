@@ -1,3 +1,12 @@
+Makine Öğrenme Aşamaları
+1-Veri setini yükle
+2-Veriyi "öğrenme" ve "test" olmak üzere 2'ye böl
+3-Uygun modeli belirle
+4-Seçilen modele göre öğrenmeye başla
+5-Tahmin yap
+6-Doğruluğunu kontrol et
+
+
 # ai_sklearn_load_iris
 
 # -*- coding: utf-8 -*-
