@@ -132,3 +132,11 @@ This is a temporary script file.
 <br>1-Bütün özelliklerin aynı ölçekte işlem görmesini sağlar.
 <br>2-Bazı özelliklerin diğer özellikleri domine etmesinden kaynaklanır.
 <br>3-Bütün değerler aynı aralıkta olur.
+
+<br>2 şekilde özellikleri ölçekleme yapabiliriz. 
+<br>Standardizasyon
+<br>X(std) = [x-ort(x)]/standart_sapma(x), Her zaman çalışır ancak normal dağılımlarda kullanılması önerilmez.
+<br>Normalisation
+<br>X(norm) = [x-min(x)]/[max(x)-min(x)] , Normal dağılımlarda kullanılması önerilir.
+
+<br>NOT: Özellikleri ölçeklemeyi veri setini  öğrenme ve test setine böldükten sonra sadece öğrenme verisinde uygulamalıyız.
