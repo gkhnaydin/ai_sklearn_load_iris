@@ -127,3 +127,8 @@ This is a temporary script file.
 
 <br>from sklearn.model_selection import train_test_split
 <br>x_ogren,x_test,y_ogren,y_test = train_test_split(X,y,test_size=0.2)
+
+<br><b>Özellikleri Ölçekleme</b>
+<br>1-Bütün özelliklerin aynı ölçekte işlem görmesini sağlar.
+<br>2-Bazı özelliklerin diğer özellikleri domine etmesinden kaynaklanır.
+<br>3-Bütün değerler aynı aralıkta olur.
