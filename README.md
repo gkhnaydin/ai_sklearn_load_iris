@@ -1,4 +1,4 @@
-Makine Öğrenme Aşamaları
+Makine Öğrenme Aşamaları <br>
 1-Veri setini yükle
 2-Kayıp değerleri doldurmak
 3-Veriyi "öğrenme" ve "test" olmak üzere 2'ye böl
