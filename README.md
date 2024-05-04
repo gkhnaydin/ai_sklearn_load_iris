@@ -69,3 +69,9 @@ Verileri etiketlerken 2 yöntem kullanılır. LabelEncoder, OneHotEncoder
 <br>from sklearn.compose import ColumnTransformer
 <br>from sklearn.preprocessing import OneHotEncoder
 <br>ct=ColumnTransformer(transformers=[('encoder',OneHotEncoder(),[hangiindeksteuygulanacagi])],remainder='passthrough')
+<br>X = np.array(ct.fit_transform(X))
+
+<br>Label encoder kısmı
+<br>from sklearn.preprocessing import LabelEncoder
+<br>le= LabelEncoder()
+<br>y= le.fit_transform(y)
