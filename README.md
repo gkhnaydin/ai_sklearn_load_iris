@@ -1,4 +1,7 @@
 <br>Kaynak <b>https://www.youtube.com/watch?v=rSyDZy9lgZQ&list=PLp2P22ZlXBaa01iCUMvuXNt96G8XKNgBH&index=5&ab_channel=AlperenBayramo%C4%9Flu</b>
+
+<br>Yapay Zeka->Makine Öğrenmesi->Derin Öğrenme
+
 <br>Makine Öğrenme Aşamaları 
 <br>1-Veri setini yükle
 <br>2-Kayıp değerleri doldurmak
@@ -140,3 +143,6 @@ This is a temporary script file.
 <br>X(norm) = [x-min(x)]/[max(x)-min(x)] , Normal dağılımlarda kullanılması önerilir.
 
 <br>NOT: Özellikleri ölçeklemeyi veri setini  öğrenme ve test setine böldükten sonra sadece öğrenme verisinde uygulamalıyız.
+
+<br><b>Makine Öğrenmesi Nedir?</b>
+<br>Herhangi bir veri setinde öğrenmeyi tamamlayarak uygun matemetiksel modeli bulup geleceği tahmin etme işlemidir.
