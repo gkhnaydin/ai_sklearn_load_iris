@@ -53,3 +53,13 @@ Spyder Editor
 
 <br>import numpy as nm
 <br>print(nm.mean(dogruluk==y_test)*100);
+
+<br>
+Verileri etiketler 2 yöntem kullanılır. LabelEncoder, OneHotEncoder
+<br>LabelEncoder
+<br>1-2 veya daha az sınıf sayılarında kullanılır. Örneğin veri setindeki özellik değeri "Evet"-"Hayır" ise bu şekilde kullanılabilir. Etiketler 0 ile etiket-sayisi-1 aralığında numaralandırılır. 0-Evet, 1-Hayır
+<br>OneHotEncoder
+<br>2den daha fazla sınıf sayılarında kullanılır.Etiketleri uniq olarak ikili sayı sisteminde numaralandırılır.Örneğin veri setindeki özellikler Almanya-Fransa-Rusya olsun:
+<br>Almanya -->001
+<br>Fransa  -->010
+<br>Rusya   --100
