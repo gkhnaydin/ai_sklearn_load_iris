@@ -124,3 +124,6 @@ This is a temporary script file.
 <br>from sklearn.preprocessing import LabelEncoder
 <br>le= LabelEncoder()
 <br>y= le.fit_transform(y)
+
+<br>from sklearn.model_selection import train_test_split
+<br>x_ogren,x_test,y_ogren,y_test = train_test_split(X,y,test_size=0.2)
