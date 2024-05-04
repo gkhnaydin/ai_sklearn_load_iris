@@ -67,14 +67,60 @@ Verileri etiketlerken 2 yöntem kullanılır. LabelEncoder, OneHotEncoder
 
 
 <br>Python kodu
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+
+<br>import numpy as np
+<br>import pandas as pd
+<br>import matplotlib.pyplot as plt
+<br>from sklearn.impute import SimpleImputer
+
+<br>dataset = pd.read_csv("Data.csv")
+<br>print(dataset)
+<br>print(type(dataset))
+
+<br>print("")
+
+<br>print(dataset.values)
+<br>print(type(dataset.values))
+
+<br>print(dataset.values[0])
+<br>print(dataset.ndim)
+<br>print(dataset.size)
+<br>print(dataset.shape)
+<br>print(dataset.values.shape)
+<br>print(dataset.dtypes)
+
+<br>values = dataset.values
+<br>print(values[0,0])
+<br>print(values[0:2])
+<br>#print(values([:2])
+<br>print(values[:,1])
+<br>print(values[1::2])
+
+<br># Veriyi X ve Y olarak ikiye bölme
+<br>X = dataset.iloc[:,:3].values
+<br>y = dataset.iloc[:,-1].values 
+<br>print(X)
+<br>print(y)
+
+<br># Kayıp Değerleri Doldurma
+<br>imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
+<br>imputer.fit(X[:,1:]) 
+<br>X[:,1:] = imputer.transform(X[:,1:])
+<br>print(X[:,1:])
+
+
 <br>from sklearn.compose import ColumnTransformer
 <br>from sklearn.preprocessing import OneHotEncoder
-<br>ct=ColumnTransformer(transformers=[('encoder',OneHotEncoder(),[hangiindeksteuygulanacagi])],remainder='passthrough')
+<br>ct=ColumnTransformer(transformers=[('encoder',OneHotEncoder(),[0])],remainder='passthrough')
 <br>X = np.array(ct.fit_transform(X))
 
-<br>Label encoder kısmı
+
 <br>from sklearn.preprocessing import LabelEncoder
 <br>le= LabelEncoder()
 <br>y= le.fit_transform(y)
-<br>print(X)
-<br>print(y)
