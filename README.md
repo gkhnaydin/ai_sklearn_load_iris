@@ -63,3 +63,9 @@ Verileri etiketlerken 2 yöntem kullanılır. LabelEncoder, OneHotEncoder
 <br>Almanya -->001
 <br>Fransa  -->010
 <br>Rusya   --100
+
+
+<br>Python kodu
+<br>from sklearn.compose import ColumnTransformer
+<br>from sklearn.preprocessing import OneHotEncoder
+<br>ct=ColumnTransformer(transformers=[('encoder',OneHotEncoder(),[hangiindeksteuygulanacagi])])
