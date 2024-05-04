@@ -68,4 +68,4 @@ Verileri etiketlerken 2 yöntem kullanılır. LabelEncoder, OneHotEncoder
 <br>Python kodu
 <br>from sklearn.compose import ColumnTransformer
 <br>from sklearn.preprocessing import OneHotEncoder
-<br>ct=ColumnTransformer(transformers=[('encoder',OneHotEncoder(),[hangiindeksteuygulanacagi])])
+<br>ct=ColumnTransformer(transformers=[('encoder',OneHotEncoder(),[hangiindeksteuygulanacagi])],remainder='passthrough')
