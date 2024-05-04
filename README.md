@@ -1,4 +1,4 @@
-<br><b>https://www.youtube.com/watch?v=rSyDZy9lgZQ&list=PLp2P22ZlXBaa01iCUMvuXNt96G8XKNgBH&index=5&ab_channel=AlperenBayramo%C4%9Flu</b>
+<br>Kaynak <b>https://www.youtube.com/watch?v=rSyDZy9lgZQ&list=PLp2P22ZlXBaa01iCUMvuXNt96G8XKNgBH&index=5&ab_channel=AlperenBayramo%C4%9Flu</b>
 <br>Makine Öğrenme Aşamaları 
 <br>1-Veri setini yükle
 <br>2-Kayıp değerleri doldurmak
