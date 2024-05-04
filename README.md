@@ -23,12 +23,10 @@
 Spyder Editor
 
 """
-
 <br>from sklearn.datasets import load_iris 
 <br>from sklearn.model_selection import train_test_split 
 <br>iris_dataset = load_iris() 
 <br>x_ogren,x_test,y_ogren,y_test = train_test_split(iris_dataset['data'],iris_dataset['target']) 
-
  
 <br>#print(iris_dataset); 
 <br>#print(x_ogren.shape); 
