@@ -1,3 +1,4 @@
+<br><b>https://www.youtube.com/watch?v=rSyDZy9lgZQ&list=PLp2P22ZlXBaa01iCUMvuXNt96G8XKNgBH&index=5&ab_channel=AlperenBayramo%C4%9Flu</b>
 <br>Makine Öğrenme Aşamaları 
 <br>1-Veri setini yükle
 <br>2-Kayıp değerleri doldurmak
@@ -75,3 +76,5 @@ Verileri etiketlerken 2 yöntem kullanılır. LabelEncoder, OneHotEncoder
 <br>from sklearn.preprocessing import LabelEncoder
 <br>le= LabelEncoder()
 <br>y= le.fit_transform(y)
+<br>print(X)
+<br>print(y)
