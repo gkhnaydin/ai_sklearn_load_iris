@@ -8,7 +8,7 @@
 <br>6-Tahmin yap
 <br>7-Doğruluğunu kontrol et
 
-<br>Veri Önişleme Nedir?
+<br><b>Veri Önişleme Nedir?</b>
 <br>Veri setini, model belirlemek için hazır hale getirmektir.
 <br>1-Veri setindeki eksik değerleri tamamlamak
 <br>2-Kategorileri numaralandırmak
